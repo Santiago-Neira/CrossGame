@@ -1,27 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrossGame - Tu Catálogo de Videojuegos</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>CrossGame: Catálogo y Comparador de Precios</h1>
-        <p>Tu herramienta para gestionar tu biblioteca de videojuegos y encontrar el mejor precio. [cite: 17]</p>
+        <p>Tu herramienta para gestionar tu biblioteca de videojuegos y encontrar el mejor precio.</p>
     </header>
 
     <main>
         <section class="game-library">
-            <h2>Mi Biblioteca de Videojuegos</h2>
+            <div class="library-header" style="display: flex; align-items: center; justify-content: space-between;">
+                <h2>Mi Biblioteca de Videojuegos</h2>
+                <button class="add-game-btn">Añadir juego</button>
+            </div>
             <div class="game-list">
                 <div class="game-card">
+                    <img src="./images/Witcher_3_cover_art.jpg" alt="The Witcher 3: Wild Hunt" class="game-img">
                     <h3>The Witcher 3: Wild Hunt</h3>
                     <p>Categoría: RPG</p>
                     <p>Descripción: Un clásico del género de rol con un mundo abierto inmersivo.</p>
                 </div>
                 <div class="game-card">
+                    <img src="./images/Cyberpunk_2077_box_art.jpg" alt="Cyberpunk 2077" class="game-img">
                     <h3>Cyberpunk 2077</h3>
                     <p>Categoría: RPG, Acción</p>
                     <p>Descripción: Aventura de acción de mundo abierto ambientada en Night City.</p>
@@ -43,8 +50,8 @@
                         <div class="store-item best-price">
                             <span class="store-name">Epic Games Store:</span>
                             <span class="price">$29.99</span>
-                            <a href="#">Comprar</a>
                             <span class="highlight">¡Mejor Precio! </span>
+                            <a href="#">Comprar</a>
                         </div>
                         <div class="store-item">
                             <span class="store-name">GOG:</span>
@@ -58,7 +65,9 @@
     </main>
 
     <footer>
-        <p>© 2025 CrossGame. Desarrollado por Santiago Acosta Cespedes, Santiago Antonio Neira Ortiz, Julio Cesar Contreras Granda. [cite: 2, 3, 4]</p>
+        <p>© 2025 CrossGame. Desarrollado por Santiago Acosta Cespedes, Santiago Antonio Neira Ortiz, Julio Cesar
+            Contreras Granda.</p>
     </footer>
 </body>
+
 </html>
