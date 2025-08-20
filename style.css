@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #005A9C;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #005A9C;
+    border-bottom: 2px solid #005A9C;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.game-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.price-results {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.game-to-compare {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.store-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.store-item:last-child {
+    border-bottom: none;
+}
+
+.store-item .price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.store-item a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.best-price {
+    background-color: #e9f5ee;
+    border: 2px solid #28a745;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.best-price .highlight {
+    color: #28a745;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
